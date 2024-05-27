@@ -19,8 +19,8 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         if (IsPlayerDie)
-            SceneManager.LoadSceneAsync("AgentWin");
+            SceneManager.LoadScene("AgentWin");
         else if (IsAgentDie)
-            SceneManager.LoadSceneAsync("PlayerWin");
+            SceneManager.LoadScene("PlayerWin");
     }
 }
