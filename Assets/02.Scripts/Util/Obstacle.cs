@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public static Obstacle Instance;
-    private void Awake()
-    {
-        Instance = this;
-    }
 
     private void FixedUpdate()
     {

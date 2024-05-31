@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject prefab;
     public float spawnRate = 2.5f;
+
+    public GameObject[] prefabs;
 
     public List<GameObject> obstacles = new List<GameObject>();
 
@@ -32,7 +33,9 @@ public class Spawner : MonoBehaviour
 
     private void Spawn()
     {
-        GameObject obstacle = Instantiate(prefab, transform.position, Quaternion.identity);
+        int rand = Random.Range(0, prefabs.Length);
+
+        GameObject obstacle = Instantiate(prefabs[rand], transform.position, Quaternion.identity);
         obstacles.Add(obstacle);
     }
 }

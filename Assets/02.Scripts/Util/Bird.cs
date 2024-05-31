@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 1.5f;
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        
+        transform.localPosition -= new Vector3(GameManager.Instance.Speed * speed * Time.fixedDeltaTime, 0);
+
+        if (transform.localPosition.x <= -7.5f)
+        {
+            Destroy(gameObject);
+        }
     }
 }
