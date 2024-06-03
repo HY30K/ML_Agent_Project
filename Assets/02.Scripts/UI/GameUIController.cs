@@ -79,7 +79,6 @@ public class GameUIController : MonoBehaviour
         SoundManager.PlaySound("CountDown");
         while (count > -1)
         {
-            Debug.Log("123");
             if (count == 0)
                 text.text = "START";
             else

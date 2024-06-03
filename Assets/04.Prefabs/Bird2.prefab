@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4445892293760508650}
   - component: {fileID: 7892949965392105836}
   m_Layer: 0
-  m_Name: Bird
+  m_Name: Bird2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 8103290272966536253}
   m_Layer: 0
   m_Name: BirdVisual
-  m_TagString: Obstacle
+  m_TagString: PlayerObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 3589482286087611228}
   m_Layer: 0
   m_Name: Scoring
-  m_TagString: Scoring
+  m_TagString: PlayerScoring
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

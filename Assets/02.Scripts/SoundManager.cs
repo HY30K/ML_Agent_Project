@@ -39,10 +39,6 @@ public class SoundManager : MonoBehaviour
         bgmMixer = mainMixer.FindMatchingGroups("BGM")[0];
         masterMixer = mainMixer.FindMatchingGroups("Master")[0];
 
-        Debug.Log($"sfxMixer: {sfxMixer}");
-        Debug.Log($"bgmMixer: {bgmMixer}");
-        Debug.Log($"masterMixer: {masterMixer}");
-
         DontDestroyOnLoad(gameObject);
     }
 

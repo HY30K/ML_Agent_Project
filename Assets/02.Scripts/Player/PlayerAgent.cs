@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAgent : Agent
@@ -102,11 +103,14 @@ public class PlayerAgent : Agent
         {
             AddReward(-1f);
             StartCoroutine(ChangeColorCoroutine(FailMat));
-            Die();
-            //EndEpisode();
+            //Die();
+            GameUIController.Instance.Score = 0;
+            GameManager.Instance.Speed = 5;
+            EndEpisode();
         }
         else if (other.gameObject.CompareTag("Scoring"))
         {
+            Debug.Log("asdasdasd");
             AddReward(1);
             StartCoroutine(ChangeColorCoroutine(SuccessMat));
             GameUIController.Instance.Score++;

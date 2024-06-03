@@ -267,7 +267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   prefabs:
-  - {fileID: 2808133557818376517, guid: eb42d15ee6feed04f83b03d108d97d09, type: 3}
+  - {fileID: 2808133557818376517, guid: 6f4088a3136b43543a0d33110642c83e, type: 3}
   - {fileID: 4189881738755826035, guid: 9fa66d7dd9d3c1c47997bbf89ab0819d, type: 3}
   obstacles: []
 --- !u!4 &116755812
@@ -1034,7 +1034,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &506491957
 Transform:
   m_ObjectHideFlags: 0
@@ -3249,6 +3249,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: DinoEnv
       objectReference: {fileID: 0}
+    - target: {fileID: 2620565761755895239, guid: ae6127fd4074cb9409af970652b6cbae,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: c640889e900bfa34c97bb328897443e7,
+        type: 3}
     - target: {fileID: 3587311158810643051, guid: ae6127fd4074cb9409af970652b6cbae,
         type: 3}
       propertyPath: m_LocalPosition.x

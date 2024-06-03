@@ -1,0 +1,56 @@
+{
+    "Dino": {
+        "checkpoints": [
+            {
+                "steps": 499940,
+                "file_path": "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-499940.onnx",
+                "reward": 51.95874564349651,
+                "creation_time": 1717410520.8873746,
+                "auxillary_file_paths": [
+                    "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-499940.pt"
+                ]
+            },
+            {
+                "steps": 867219,
+                "file_path": "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-867219.onnx",
+                "reward": 47.88832926750183,
+                "creation_time": 1717413929.6850991,
+                "auxillary_file_paths": [
+                    "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-867219.pt"
+                ]
+            },
+            {
+                "steps": 999941,
+                "file_path": "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-999941.onnx",
+                "reward": 55.16908667304299,
+                "creation_time": 1717417523.4612427,
+                "auxillary_file_paths": [
+                    "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-999941.pt"
+                ]
+            },
+            {
+                "steps": 1000005,
+                "file_path": "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-1000005.onnx",
+                "reward": 55.16908667304299,
+                "creation_time": 1717417523.4942558,
+                "auxillary_file_paths": [
+                    "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-1000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000005,
+            "file_path": "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino.onnx",
+            "reward": 55.16908667304299,
+            "creation_time": 1717417523.4942558,
+            "auxillary_file_paths": [
+                "D:\\0_ML_Agent_Project\\ml-agents-release_20\\Result\\Dino\\Dino05\\Dino\\Dino-1000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
