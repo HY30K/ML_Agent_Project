@@ -1,9 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAgent : Agent
@@ -86,6 +84,7 @@ public class PlayerAgent : Agent
 
     private void Jump()
     {
+        AddReward(-0.02f);
         SoundManager.PlaySound("DinoJump");
         jumpDir = Vector3.up * strength;
         animator.SetBool("Jump", true);
@@ -103,14 +102,13 @@ public class PlayerAgent : Agent
         {
             AddReward(-1f);
             StartCoroutine(ChangeColorCoroutine(FailMat));
-            //Die();
+            Die();
             GameUIController.Instance.Score = 0;
             GameManager.Instance.Speed = 5;
-            EndEpisode();
+            //EndEpisode();
         }
         else if (other.gameObject.CompareTag("Scoring"))
         {
-            Debug.Log("asdasdasd");
             AddReward(1);
             StartCoroutine(ChangeColorCoroutine(SuccessMat));
             GameUIController.Instance.Score++;
