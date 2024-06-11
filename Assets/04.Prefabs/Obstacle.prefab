@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6935287034803391511}
   - component: {fileID: 1778584264130972304}
   - component: {fileID: 7511717375180982394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cactus A
   m_TagString: PlayerObstacle
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6606690208756574561}
   - component: {fileID: 40673181389095563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5007b1613c0b2764a8bd3a5652bde25c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!1 &8703098135647471157
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3159825191126589532}
   - component: {fileID: 5836935497798779283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Scoring
   m_TagString: PlayerScoring
   m_Icon: {fileID: 0}
